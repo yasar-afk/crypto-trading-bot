@@ -1,5 +1,5 @@
 # ============================================================
-# src/execution/engine.py — ANTIGRAVITI Trading Bot
+# src/execution/engine.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Alım-satım kararlarını (Order/Position) borsaya veya kağıt üstünde

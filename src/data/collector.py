@@ -1,5 +1,5 @@
 # ============================================================
-# src/data/collector.py — ANTIGRAVITI Trading Bot
+# src/data/collector.py — Trading Bot Trading Bot
 # Amaç : Binance'tan OHLCV verisi çeken ana DataCollector sınıfı.
 #         REST polling ile 4h ve 1d mum verisini alır, doğrular,
 #         önbellekler ve sisteme temiz DataFrame olarak sunar.

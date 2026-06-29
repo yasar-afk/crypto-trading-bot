@@ -1,5 +1,5 @@
 # ============================================================
-# src/bot/engine.py — ANTIGRAVITI Trading Bot
+# src/bot/engine.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Trading botunun tüm katmanlarını (DataCollector,
@@ -128,7 +128,7 @@ class BotEngine:
             top_n: Belirtilen sayıdaki en yüksek 24h hacimli USDT paritesini dinamik tarar.
         """
         logger.info("=" * 60)
-        logger.info("[START] ANTIGRAVITI Algo Trading Bot Calismaya Basliyor")
+        logger.info("[START] Trading Bot Algo Trading Bot Calismaya Basliyor")
         logger.info("=" * 60)
 
         # Borsaya baglan

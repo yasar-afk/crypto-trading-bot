@@ -10,7 +10,7 @@ from src.strategy.smc_utils import get_premium_discount_zone, detect_displacemen
 
 class V7PriceActionStrategy:
     """
-    ANTIGRAVITI V7 — Backtest Optimized Price Action Stratejisi
+    Trading Bot V7 — Backtest Optimized Price Action Stratejisi
     
     V5'ten Farklar:
       - Volatilite filtresi (> %0.3)

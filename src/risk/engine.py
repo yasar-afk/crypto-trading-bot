@@ -1,5 +1,5 @@
 # ============================================================
-# src/risk/engine.py — ANTIGRAVITI Trading Bot
+# src/risk/engine.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Alım-satım kararlarını risk parametrelerine göre denetler.

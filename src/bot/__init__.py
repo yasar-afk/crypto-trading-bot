@@ -1,5 +1,5 @@
 # ============================================================
-# src/bot/__init__.py — ANTIGRAVITI Trading Bot
+# src/bot/__init__.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Bot paketini tanımlar ve BotEngine ile CandleScheduler

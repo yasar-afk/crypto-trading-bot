@@ -1,5 +1,5 @@
 # ============================================================
-# src/technical/engine.py — ANTIGRAVITI Trading Bot
+# src/technical/engine.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   DataCollector'dan gelen temiz OHLCV DataFrame'ini alır,

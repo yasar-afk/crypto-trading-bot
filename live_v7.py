@@ -1095,7 +1095,7 @@ class LiveV7Bot:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="ANTIGRAVITI V7 Price Action Bot")
+    parser = argparse.ArgumentParser(description="Trading Bot V7 Price Action Bot")
     parser.add_argument("--live", action="store_true", help="Canlı mod")
     parser.add_argument("--paper", action="store_true", help="Paper trade modu (varsayılan)")
     parser.add_argument("--single-run", action="store_true", help="Tek seferlik tarama")

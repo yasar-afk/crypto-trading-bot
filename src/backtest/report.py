@@ -217,7 +217,7 @@ class BacktestReporter:
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>ANTIGRAVITI Backtest Raporu — {result.symbol}</title>
+    <title>Trading Bot Backtest Raporu — {result.symbol}</title>
     <style>
         body {{ font-family: 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; padding: 20px; }}
         .container {{ max-width: 1200px; margin: 0 auto; }}
@@ -239,7 +239,7 @@ class BacktestReporter:
 </head>
 <body>
 <div class="container">
-    <h1>📊 ANTIGRAVITI Backtest Raporu</h1>
+    <h1>📊 Trading Bot Backtest Raporu</h1>
     <p style="color:#94a3b8">Sembol: <strong>{result.symbol}</strong> | Strateji: <strong>{result.strategy_name}</strong> | Timeframe: <strong>{result.timeframe}</strong></p>
 
     <div class="card">

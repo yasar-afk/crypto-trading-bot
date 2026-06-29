@@ -1,5 +1,5 @@
 # ============================================================
-# src/signal/models.py — ANTIGRAVITI Trading Bot
+# src/signal/models.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   SignalGenerator'ın ürettiği tüm sinyal tiplerini ve

@@ -1,5 +1,5 @@
 # ============================================================
-# src/bot/scheduler.py — ANTIGRAVITI Trading Bot
+# src/bot/scheduler.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Her timeframe için bir sonraki mum kapanış zamanını hesaplar

@@ -1,5 +1,5 @@
 # ============================================================
-# src/data/models.py — ANTIGRAVITI Trading Bot
+# src/data/models.py — Trading Bot Trading Bot
 # Amaç : Sistemin tüm veri yapılarını tek yerde tanımlar.
 #         DataCollector bu modelleri üretir; diğer tüm modüller
 #         (TechnicalEngine, SignalGenerator vb.) bu şemaları tüketir.

@@ -1,1 +1,1 @@
-# Backtest module for ANTIGRAVITI Trading Bot
+# Backtest module for Trading Bot Trading Bot

@@ -1,5 +1,5 @@
 # ============================================================
-# src/data/validator.py — ANTIGRAVITI Trading Bot
+# src/data/validator.py — Trading Bot Trading Bot
 # Amaç : DataCollector'dan gelen ham OHLCV verisini sisteme
 #         girmeden önce kontrol eder. "Garbage in, garbage out"
 #         prensibini engelleyen kalite kapısıdır.

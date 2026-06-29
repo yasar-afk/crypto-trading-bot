@@ -1,5 +1,5 @@
 # ============================================================
-# src/utils/generate_excel.py — ANTIGRAVITI Trading Bot
+# src/utils/generate_excel.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Botun yaptığı işlemlerin potansiyel kâr/zarar durumlarını,
@@ -234,7 +234,7 @@ def create_analysis_excel(output_path: str = "logs/islem_analiz_raporu.xlsx") ->
         bottom=Side(border_style="double", color="000000")
     )
 
-    ws["A1"] = "ANTIGRAVITI TRADING BOT — İŞLEM POST-MORTEM & HATA ANALİZ RAPORU"
+    ws["A1"] = "Trading Bot TRADING BOT — İŞLEM POST-MORTEM & HATA ANALİZ RAPORU"
     ws["A1"].font = title_font
     ws.row_dimensions[1].height = 30
     

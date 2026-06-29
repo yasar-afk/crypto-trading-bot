@@ -1,5 +1,5 @@
 # ============================================================
-# src/config/settings.py — ANTIGRAVITI Trading Bot
+# src/config/settings.py — Trading Bot Trading Bot
 # Amaç : config.yaml ve .env dosyalarını birleştirerek tip-güvenli,
 #         merkezi bir ayar nesnesi üretir. Tüm modüller ayarlarını
 #         buradan alır; dosyaları direkt okumazlar.
@@ -161,7 +161,7 @@ class ExecutionConfig(BaseModel):
 # ─── Ana Ayar Sınıfı ─────────────────────────────────────────
 
 class Settings(BaseSettings):
-    """ANTIGRAVITI bot için tam konfigürasyon.
+    """Trading Bot bot için tam konfigürasyon.
 
     Öncelik sırası (yüksekten düşüğe):
     1. Ortam değişkenleri (ENV)

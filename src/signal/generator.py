@@ -1,5 +1,5 @@
 # ============================================================
-# src/signal/generator.py — ANTIGRAVITI Trading Bot
+# src/signal/generator.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   TechnicalEngine'den gelen IndicatorSet'i değerlendirerek

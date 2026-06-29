@@ -7,7 +7,7 @@ import numpy as np
 from src.strategy.smc_utils import get_premium_discount_zone
 
 class V5PriceActionStrategy:
-    """ANTIGRAVITI V5 Price Action & Smart Money Concepts Strategy (Refine Optimized).
+    """Trading Bot V5 Price Action & Smart Money Concepts Strategy (Refine Optimized).
     
     Optimized confluences from focused historical parameter sweeps:
       1. Sweep Window: 100

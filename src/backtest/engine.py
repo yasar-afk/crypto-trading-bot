@@ -1,5 +1,5 @@
 # ============================================================
-# src/backtest/engine.py — ANTIGRAVITI Backtest Motoru
+# src/backtest/engine.py — Trading Bot Backtest Motoru
 #
 # AMAÇ:
 #   Geçmiş verilerle stratejileri test eden, kapsamlı metrikler

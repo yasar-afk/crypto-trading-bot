@@ -1,5 +1,5 @@
 # ============================================================
-# src/signal/journal.py — ANTIGRAVITI Trading Bot
+# src/signal/journal.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Üretilen tüm sinyalleri dosyaya ve belleğe kaydeden sinyal
@@ -143,7 +143,7 @@ class SignalJournal:
         """Sinyal defterin özet istatistiklerini döner."""
         lines = [
             "=" * 50,
-            "  ANTIGRAVITI — Sinyal Defteri Özeti",
+            "  Trading Bot — Sinyal Defteri Özeti",
             "=" * 50,
             f"  Toplam Sinyal     : {self._stats['total_signals']}",
             f"  İşlemleşebilir   : {self._stats['actionable_signals']}",

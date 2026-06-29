@@ -1,5 +1,5 @@
 # ============================================================
-# src/utils/ai_analyzer.py — ANTIGRAVITI Trading Bot
+# src/utils/ai_analyzer.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Kapalı pozisyonların (kâr veya zarar) durumunu ve giriş anındaki

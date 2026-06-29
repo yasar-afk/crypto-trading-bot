@@ -1,5 +1,5 @@
 # ============================================================
-# src/execution/models.py — ANTIGRAVITI Trading Bot
+# src/execution/models.py — Trading Bot Trading Bot
 #
 # AMAÇ:
 #   Açık pozisyonları, emir geçmişini ve portföy durumunu temsil

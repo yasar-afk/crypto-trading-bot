@@ -1,5 +1,5 @@
 # ============================================================
-# src/utils/logger.py — ANTIGRAVITI Trading Bot
+# src/utils/logger.py — Trading Bot Trading Bot
 # Amaç : Tüm sistem genelinde tek tip, merkezi loglama altyapısı.
 #         Her modül bu dosyadan logger alır; direkt print() kullanmaz.
 # Tarih: 2026-06-03
@@ -32,7 +32,7 @@ except ImportError:
 
 # ─── Sabitler ────────────────────────────────────────────────
 DEFAULT_LOG_DIR = os.getenv("LOG_DIR", "logs")
-DEFAULT_LOG_FILE = "antigraviti.log"
+DEFAULT_LOG_FILE = "trading-bot.log"
 DEFAULT_MAX_BYTES = 10 * 1024 * 1024   # 10 MB
 DEFAULT_BACKUP_COUNT = 5
 DEFAULT_LEVEL = logging.INFO
@@ -182,4 +182,4 @@ def get_logger(
 # ─── Sistem Geneli Ana Logger ─────────────────────────────────
 # Bu logger'ı doğrudan import edebilirsin:
 #   from src.utils.logger import system_logger
-system_logger = get_logger("antigraviti.system")
+system_logger = get_logger("trading-bot.system")

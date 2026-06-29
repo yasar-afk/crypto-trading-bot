@@ -209,7 +209,7 @@ def main():
     global running
 
     print("=" * 60)
-    print("  ANTIGRAVITI -- V5 + V7 (TEK PENCERE)")
+    print("  Trading Bot -- V5 + V7 (TEK PENCERE)")
     print("=" * 60)
     print("  V5: Price Action, filtresiz, %2 risk, 100 coin")
     print("  V7: Price Action, filtreli,  %2 risk, 100 coin")

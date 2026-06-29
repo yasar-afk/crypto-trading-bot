@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 ANTIGRAVITI
+# 🤖 Trading Bot
 
 ### AI Destekli Kripto Trading Botu
 
@@ -33,7 +33,7 @@ otomatik kripto para trading sistemi.
 ## 🏗️ Mimari
 
 ```
-ANTIGRAVITI
+Trading Bot
 ├── live_v7.py              ← Ana bot
 ├── config_v7.yaml          ← Konfigurasyon
 ├── .env                    ← API anahtarlari (gizli)
@@ -57,8 +57,8 @@ ANTIGRAVITI
 
 ```bash
 # 1. Depoyu klonla
-git clone https://github.com/yasar-afk/antigraviti-trading-bot.git
-cd antigraviti-trading-bot
+git clone https://github.com/yasar-afk/trading-bot-trading-bot.git
+cd trading-bot-trading-bot
 
 # 2. Sanal ortam olustur
 python -m venv venv
@@ -158,6 +158,6 @@ MIT License
 
 <div align="center">
 
-**ANTIGRAVITI** — Yapay zeka ile gelecege yatirim
+**Trading Bot** — Yapay zeka ile gelecege yatirim
 
 </div>
