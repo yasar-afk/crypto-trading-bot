@@ -1,0 +1,96 @@
+# ============================================================
+# config_v7.yaml — ANTIGRAVITI Trading Bot V7
+# Backtest Optimized: 100 coin, %114 ROI, %26.6 win rate
+# ============================================================
+
+# ─── Strateji Ayarları ────────────────────────────────────────
+strategy:
+  version: "v7"
+  sweep_window: 100
+  max_hold_sweep: 7
+  target_rr: 5.5
+  trend_ema: 180
+  atr_multiplier: 0.6
+  use_volume_filter: true
+  volume_threshold: 0.5
+  min_volatility_pct: 0.3
+  use_premium_discount: true
+  max_tp_pct: 0.50
+  min_sl_pct: 0.02
+  max_sl_pct: 0.08
+  entry_threshold: 0.65
+  exit_threshold: 0.40
+  max_concurrent_positions: 10
+  min_volume_ratio: 0.8
+
+# ─── Teknik İndikatörler ──────────────────────────────────────
+technical:
+  adx_period: 14
+  adx_threshold: 18.0
+
+# ─── Borsa Ayarları ──────────────────────────────────────────
+exchange:
+  name: binance
+  symbol: "BTC/USDT"
+  sandbox: false
+  default_type: "future"
+  rate_limit: true
+  recv_window: 5000
+  request_timeout: 30
+
+# ─── Veri Toplama ────────────────────────────────────────────
+data:
+  timeframes:
+    - "15m"
+    - "1h"
+    - "4h"
+  limit: 500
+  primary_timeframe: "15m"
+  cache_enabled: true
+  cache_ttl_seconds: 900
+  polling:
+    "15m": 900
+    "1h": 3600
+    "4h": 14400
+  validation:
+    max_missing_candles: 5
+    min_volume_threshold: 0
+    price_spike_factor: 0.1
+
+# ─── Risk Yönetimi ────────────────────────────────────────────
+risk:
+  max_position_pct: 0.02
+  max_daily_drawdown_pct: 0.05
+  min_risk_reward_ratio: 3.0
+  atr_stop_multiplier: 0.6
+  normal_risk_pct: 0.02
+  high_risk_pct: 0.02
+  max_correlated_positions: 2
+
+# ─── Loglama ─────────────────────────────────────────────────
+logging:
+  level: "INFO"
+  log_dir: "logs_v7"
+  max_bytes: 10485760
+  backup_count: 5
+  console_output: true
+
+# ─── Paper Trading ────────────────────────────────────────────
+paper_trading:
+  enabled: true
+  initial_balance_usdt: 10000
+  commission_rate: 0.00063
+
+# ─── Emir Yürütme ─────────────────────────────────────────────
+execution:
+  order_type: "market"
+  limit_timeout_minutes: 180
+  leverage: 5
+  margin_mode: "ISOLATED"
+
+# ─── Telegram ────────────────────────────────────────────────
+telegram:
+  enabled: true
+  notify_every_signal: true
+  hourly_summary: true
+  daily_summary: true

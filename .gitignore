@@ -1,0 +1,35 @@
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+
+# Logs
+logs/
+*.log
+
+# Data (large files)
+data/historical_1y_15m_all/
+data/historical_100d_15m_all/
+data/historical_7d_v7/
+
+# Scratch & Test
+scratch/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
